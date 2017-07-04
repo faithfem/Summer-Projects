@@ -1,3 +1,13 @@
+.nav-pills{
+  display: block;
+  /*text-align: left;*/
+  width: 100%;
+  font-size:1.5em;
+  background-color:blue
+  opacity:0.5;
+  font-family: Lobster;
+}
+
 body {
   background-color:white;
   font-family: 'Indie Flower', cursive;
@@ -8,7 +18,7 @@ h1 {
     color: black;
     text-align: center;
     padding:10px;
-    font-size:5.0em;
+    font-size:10.0em;
     margin: 10px;
     font-family:Helvetica;
     font-family: Helvetica;
@@ -46,11 +56,3 @@ ul {
     border: 10px solid #555;
 }
 
-.nav-pills{
-  /*display: block;*/
-  /*text-align: center;*/
-  width: 100%;
-  font-size:1.5em;
-  background-color:rgb(105,100,200);
-  opacity:0.5;
-}
