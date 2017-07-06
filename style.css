@@ -1,58 +1,64 @@
-.nav-pills{
-  display: block;
-  /*text-align: left;*/
-  width: 100%;
-  font-size:1.5em;
-  background-color:blue
-  opacity:0.5;
+h1{
   font-family: Lobster;
 }
 
-body {
-  background-color:white;
-  font-family: 'Indie Flower', cursive;
-
+body{
+  font-family: Lobster;
 }
+.pageOne{
+  background:url("http://l7.alamy.com/zooms/5084919199c3403f86a45009ad077f84/kenya-mombasa-a82kge.jpg");
+  background-size:cover;
+  height:800px;
+  margin-top: 0.0%;
+  }
 
-h1 {
-    color: black;
-    text-align: center;
-    padding:10px;
-    font-size:10.0em;
-    margin: 10px;
-    font-family:Helvetica;
-    font-family: Helvetica;
-}
+form{
+  background:white;
+  background-size:cover;
+  height:800px;
+  margin-top: 0.0%;
+  }
 
-/*.banner{
+.nav-pills{
   display: block;
-  padding: 8px 16px;
-  text-decoration: none;
-  opacity:0.;
-  width: 1000px;
+  width: 100%;
+  font-size:2.5em;
+  opacity:5.5;
+  font-family: Lobster;
+}
+
+/*h1{
+  padding:0px;
+  margin-top:0px;
+  font-size:5.0em;
 }*/
 
-.smaller-image{width: 100px;
+.smaller-image{
+    width: 100px;
+    height: 0%;
 }
-
-.larger-image{width: 500px;
-}
-
 .center {
-    margin: auto;
-    width: 60%;
+    /*margin: auto;*/
     border: 3px solid black;
-    padding: 10px;
+    /*padding: 10px;*/
     text-align: center;
 }
-
+.larger-image{
+    width: 200px;
+    
+}
 .active {
-    background-color: #4CAF50;
+    /*background-color: red;*/
     color: white;
 }
 
 
 ul {
     border: 10px solid #555;
+}
+
+.family{
+  size: 5px;
+  text-align: center;
 }
 
